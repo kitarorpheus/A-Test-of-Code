@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "install samples",
+  "description": "AtCoderのサンプルをテキストファイルに保存します",
+  "version": "0.1.0",
+
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+
+  "action": {},
+
+  "background": {
+    "service_worker": "background.js"
+  }
+}
